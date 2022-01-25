@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+input[type="text"] {
+    font-family: 'Anton', sans-serif;
+    background-image: url('https://iconape.com/wp-content/png_logo_vector/keyboard-2.png');
+    width: 140px;
+    transition: 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+
+.inputsdiv {
+
+    margin-top: 50px;
+}
+
+#country {
+    font-family: 'Anton', sans-serif;
+}
